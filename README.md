@@ -15,27 +15,27 @@ Suppose there are three files in the `notes` directory, with the following attri
 
 If msgen were run as I write this, it would create `ms202306092247.txt` with the following contents:
 
-`\$\$\$TITLE\$\$\$a\$\$\$TITLE\$\$\$
+```$$$TITLE$$$a$$$TITLE$$$
 
-\$\$\$DATE\$\$\$November 6, 2022 12:30 PM\$\$\$DATE\$\$\$
+$$$DATE$$$November 6, 2022 12:30 PM$$$DATE$$$
 
 File 1
 
 
 
-\$\$\$TITLE\$\$\$b\$\$\$TITLE\$\$\$
+$$$TITLE$$$b$$$TITLE$$$
 
-\$\$\$DATE\$\$\$February 3, 2023 4:30 PM\$\$\$DATE\$\$\$
+$$$DATE$$$February 3, 2023 4:30 PM$$$DATE$$$
 
 File 2
 
 
 
-\$\$\$TITLE\$\$\$b\$\$\$TITLE\$\$\$
+$$$TITLE$$$b$$$TITLE$$$
 
-\$\$\$DATE\$\$\$April 13, 2023 8:30 PM\$\$\$DATE\$\$\$
+$$$DATE$$$April 13, 2023 8:30 PM$$$DATE$$$
 
-File 3`
+File 3```
 
 
 See `development` subdirectory for prerelease versions of msgen.
