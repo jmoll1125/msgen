@@ -40,8 +40,8 @@ $$$DATE$$$April 13, 2023 8:30 PM$$$DATE$$$
 File 3
 ```
 ## Versions
-`msgen6` is the main version I developed for work on the notes book. Ny notes were all written in Microsoft Notepad and saved with either the "ANSI" (cp1252) or "Unicode" (UTF-16) encoding. msgen6 will read either and save the output in UTF-8 format. If you want to use msgen6 to read plain text files with a different encoding, you might need to edit the pertinent sections of the script. 
-When I wrote `ios-conv` I created updated `msgen` to `msgen7`, but as that version is meant to be used alongside `ios-conv` it is presented in that repository instead.
+msgen6 is the main version I developed for work on the notes book. Ny notes were all written in Microsoft Notepad and saved with either the "ANSI" (cp1252) or "Unicode" (UTF-16) encoding. msgen6 will read either and save the output in UTF-8 format. If you want to use msgen6 to read plain text files with a different encoding, you might need to edit the pertinent sections of the script. 
+When I wrote ios-conv I updated msgen to msgen7. That version is meant to be used alongside ios-conv and so it is presented in that repository instead.
 
 Previous versions of msgen from its development can be found in this repo's `development` subdirectory.
 ## Modifications
