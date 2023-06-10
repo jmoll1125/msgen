@@ -39,7 +39,10 @@ $$$DATE$$$April 13, 2023 8:30 PM$$$DATE$$$
 
 File 3
 ```
-## Modifications
-You can modify any aspect of `msgen` to suit your needs. The `dateformat` function at the very top of the program will change the way the date appears in the output file between the `$$$DATE$$$` blocks. Changing the `search_dir` variable will alter which directory msgen searches 
+## Versions
+`msgen6` is the main version I developed for work on the notes book. Ny notes were all written in Microsoft Notepad and saved with either the "ANSI" (cp1252) or "Unicode" (UTF-16) encoding. msgen6 will read either and save the output in UTF-8 format. If you want to use msgen6 to read plain text files with a different encoding, you might need to edit the pertinent sections of the script. 
+When I wrote `ios-conv` I created updated `msgen` to `msgen7`, but as that version is meant to be used alongside `ios-conv` it is presented in that repository instead.
 
-See `development` subdirectory for prerelease versions of msgen.
+Previous versions of msgen from its development can be found in this repo's `development` subdirectory.
+## Modifications
+You can modify any aspect of `msgen` to suit your needs. The `dateformat` function at the very top of the program will change the way the date appears in the output file between the `$$$DATE$$$` blocks. Changing the `search_dir` variable will alter which directory msgen searches. 
