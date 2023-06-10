@@ -7,11 +7,11 @@ msgen is loosely based on the [HTML directory generator](#) I wrote the previous
 ## Example output
 Suppose there are three files in the `notes` directory, with the following attributes:
 
-`a.txt` (last modified November 6, 2022 at 12:30 PM)
-`File 1`
-`b.txt` (last modified February 3, 2023 at 4:30 PM)
-`File 2`
-`b.txt` (last modified April 13, 2023 at 8:30 PM)
+`a.txt` (last modified November 6, 2022 at 12:30 PM)  
+`File 1`  
+`b.txt` (last modified February 3, 2023 at 4:30 PM)  
+`File 2`  
+`b.txt` (last modified April 13, 2023 at 8:30 PM)  
 `File 3`
 
 If msgen were run as I write this, it would create `ms202306092247.txt` with the following contents:
