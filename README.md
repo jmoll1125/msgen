@@ -11,7 +11,7 @@ Suppose there are three files in the `notes` directory, with the following attri
 `File 1`  
 `b.txt` (last modified February 3, 2023 at 4:30 PM)  
 `File 2`  
-`b.txt` (last modified April 13, 2023 at 8:30 PM)  
+`c.txt` (last modified April 13, 2023 at 8:30 PM)  
 `File 3`
 
 If msgen were run as I write this, it would create `ms202306092247.txt` with the following contents:
@@ -33,13 +33,13 @@ File 2
 
 
 
-$$$TITLE$$$b$$$TITLE$$$
+$$$TITLE$$$c$$$TITLE$$$
 
 $$$DATE$$$April 13, 2023 8:30 PM$$$DATE$$$
 
 File 3
 ```
-##Modifications
+## Modifications
 You can modify any aspect of `msgen` to suit your needs. The `dateformat` function at the very top of the program will change the way the date appears in the output file between the `$$$DATE$$$` blocks. Changing the `search_dir` variable will alter which directory msgen searches 
 
 See `development` subdirectory for prerelease versions of msgen.
