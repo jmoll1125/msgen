@@ -1,5 +1,5 @@
 # msgen
-[//]: #written June 9, 2023
+June 9, 2023
 
 msgen (**m**anu**s**cript **gen**erator) converts a series of plain text files into one large text file. To do so, it finds all the plain text files in a specified directory (set as `notes/`) and then writes the contents of each into a new text file (`msYYYYDDMMHHMM.txt`) in order from oldest to newest. It also prepends each file's text with the filename and date last modified. 
 
